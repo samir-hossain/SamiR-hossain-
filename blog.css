@@ -1,0 +1,217 @@
+*{margin: 0; padding: 0;}
+
+
+
+.container {
+
+    width: 1349px;    
+    margin: 0 auto; 
+    padding:  0 auto;
+
+}
+
+section{
+
+    padding: 80px 0px;
+}
+.topbar {
+   
+margin-top: 15px;
+   
+background-color: white;
+}
+
+
+.logoImage {
+    width: 500px;
+    float: left;
+}
+
+.mainMenu {
+    width: 520px;
+    float: right;
+    font-size: 20px;
+}
+
+.mainMenu li {
+    overflow: hidden;
+    float: left;
+    padding-top: 10px;
+    padding-right: 30px;
+    display: inline;
+}
+
+
+.mainMenu ul li a:hover {
+   
+    opacity: .85;
+    color: rgb(69, 178, 268);
+    transition: -0.8s;
+    border-bottom: 2px solid blue;
+    border-color:rgb(69, 178, 268) ;
+}
+.mainMenu ul li a {
+    text-decoration: none;
+    display: -webkit-inline-box ;
+   
+    color: black;
+    font-family: system-ui;
+    text-transform: capitalize;
+}
+
+
+.blog-SubTitel {
+    margin-left: 50px;
+    border-left: 2px solid;
+    font-size: 18px;
+}
+
+.blog-SubTitel h2 {
+    color: gray;
+    font-size: 40px;
+}
+
+.blogTitel h2 {
+    margin-bottom: 10px;
+    color: gray;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+
+
+
+.blogTitel h2 strong {
+    color: black;
+    font-size: 30px;
+}
+
+.subBoxWappar {
+    width: 390px;
+    display: inline-flex;
+    margin-left: 44px;
+    margin-bottom: 50px;
+}
+
+
+.singleBoxImage {
+    position: relative;
+
+}
+
+
+.singleBoxImage img {
+    width: 390px;
+}
+
+.singleBoxImage::before{
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    content: "";
+    opacity: 0;
+    transform: scale(.8);
+    transition: all 0.5s;
+}
+
+
+.subBoxWappar:hover .singleBoxImage::before{
+    opacity: .5;
+    transform: scale(1);
+}
+.blogDate {
+    background: #f89406 none repeat scroll 0 0;
+    height: 70px;
+    width: 70;
+    top: 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+}
+
+.blogDate span {
+    display: block;
+    color: white;
+    font-weight: 800px;
+    font-size: 18px;
+}
+
+.blogDate span {
+    margin-left: 10px;
+}
+
+
+
+
+
+
+.singleBoxSocailIcons {
+    margin: 15px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.singleBoxSocailIcons a {
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+    margin: 15px;
+}
+
+i.fa.fa-facebook {color: #3b5998;}
+i.fa.fa-linkedin {color: #0077b5;}
+i.fa.fa-twitter {color: #1da1f2;}
+i.fa.fa-instragram {color: #fbad50;}
+i.fa.fa-instragram {color: #fbad50;}
+i.fa.fa-youtube {color: #ff0000;}
+
+
+
+
+
+.singleBoxDescption {
+    color: gray;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: fantasy;
+    font-weight: normal;
+}
+
+.singleBoxButton {
+    margin-top: 20px;
+}
+
+.singleBoxButton button {
+    padding: 5px;
+    width: 150px;
+    font-size: 18px;
+    font-family: monospace;
+    text-transform: uppercase;
+    background: #f89406;
+    border: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.mainFooter {
+    background: #00d0ff;
+    padding: 30px;
+}
+
+.mainFooterText {
+    text-align: center;
+    font-size: 25px;
+    text-transform: capitalize;
+}

@@ -1,0 +1,202 @@
+*{margin: 0; padding: 0;}
+
+header {
+    position: fixed;
+    background-color: white;
+
+}
+
+
+
+.container {
+
+    width: 1349px;    
+    margin: 0 auto; 
+    padding:  0 auto;
+
+}
+
+section{
+
+    padding: 80px 0px;
+}
+.topbar {
+   
+margin-top: 15px;
+   
+background-color: white;
+}
+
+
+.logoImage {
+    width: 500px;
+    float: left;
+}
+
+.mainMenu {
+    width: 520px;
+    float: right;
+    font-size: 20px;
+}
+
+.mainMenu li {
+    overflow: hidden;
+    float: left;
+    padding-top: 10px;
+    padding-right: 30px;
+    display: inline;
+}
+
+
+.mainMenu ul li a:hover {
+   
+    opacity: .85;
+    color: rgb(69, 178, 268);
+    transition: -0.8s;
+    border-bottom: 2px solid blue;
+    border-color:rgb(69, 178, 268) ;
+}
+.mainMenu ul li a {
+    text-decoration: none;
+    display: -webkit-inline-box ;
+   
+    color: black;
+    font-family: system-ui;
+    text-transform: capitalize;
+}
+
+
+.contactMeText {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.contactMeText h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.contactMeText h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.mainRow {
+    width: 250px;
+    margin-left: 300px;
+    text-align: center;
+    float: left;
+    margin-bottom: 70px;
+}
+
+.mainRow h3 {
+    font-family: fantasy;
+    text-transform: uppercase;
+    color: #00fff3;
+    font-size: 25px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.mainRow i {
+    color: #00fff3;
+    font-size: 45px;
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.mainRow p {
+    font-size: 20px;
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+.contactBox {
+    width: 500px;
+    float: right;
+    margin-top: -30px;
+    padding: 25;
+    padding-top: 30px;
+}
+
+.contactMe {
+    color: blue;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.box {
+    width: 300px;
+    font-size: 35px;
+}
+
+input[type="text"] {
+    width: 450px;
+    padding: 10px;
+}
+
+textarea {
+    margin-top: 15px;
+    width: 470px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer img {
+    font-size: inherit;
+    height: 100px;
+    width: 100px;
+    
+    border: 2px solid white;
+    border-radius: 100%;
+    margin-left: 95px;
+    margin-top: 110px;
+}
+
+
+#mainfooter{
+    margin-top: 350px;
+    background-image:linear-gradient(rgba(0, 0, 0.6,0.6 ),rgba(0,0, 0, 0.6)), url("developer-samir-footer-img.jfif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 300px;
+}
+
+
+
+
+
+
+
+.footerText {
+    text-align: center;
+    background: linear-gradient(-60deg, rgb(9, 185, 230),rgb(20, 250, 238));
+    color: white;
+    padding: 20px;
+}
